@@ -1,0 +1,124 @@
+/* Write some CSS below */
+body {
+	font-family: 'Sen', sans-serif;
+	font-size: 18px;
+	background-color: rgb(230, 230, 230);
+	color: rgb(30, 30, 30);
+	margin: 0;
+}	
+
+.Italie {
+	font-family: 'Gwendolyn', cursive;
+	font-style: italic;
+}
+
+h1 {
+	font-family: 'Sora', sans-serif;
+}
+
+h2, h3 {
+font-family: 'Gwendolyn', cursive;
+}
+
+a {
+	text-decoration: none;
+}
+
+.banner {
+	background-image: url(images/banniere.jpeg);
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	color: white;
+	padding: 110px 0px;
+	font-size: 30px;
+}
+
+.btn-yellow {
+	background-color: #698e7a;
+	padding: 10px 45px;
+	color: white;
+	font-size: 16px;
+	border-radius: 4px;
+	font-family: 'Sora', sans-serif;
+}
+
+.btn-yellow:hover {
+	opacity: 0.8;
+}
+
+.container {
+	width: 900px;
+	margin: auto;
+}
+
+.card-white img {
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+	border-radius: 4px;
+}
+
+.card-white {
+	background-color: #698e7a;
+	text-align: center;
+	width: 220px;
+	padding: 24px;
+	margin-bottom: 4px;
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+}
+
+.footer {
+	background-color: #b2b2b2;
+	text-align: center;
+	padding: 16px;
+	margin-top: 16px;
+	color: black;
+	grid-template-columns: 7fr 1fr;
+	margin-top: 70px;
+	display: grid;
+}
+
+.réseaux-sociaux img{
+	width: 30px;
+	height: 30px;
+	align-content: right;
+	vertical-align: middle;
+	margin-top: 15px;	
+}
+.réseaux-sociaux:hover{
+	transform: scale(1.25);
+}
+
+.cards {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 16px;
+	font-family:'Palanquin', sans-serif;
+	text-align: center;
+}
+
+.texte-présentation {
+	font-family: 'Sen', sans-serif;
+	font-size: 16px;
+	color: black;
+	text-align: justify;
+	margin: 10px;
+	padding: 10px;
+}
+
+.texte-conclusion {
+	font-family: 'Sen', sans-serif;
+	font-size: 16px;
+	color: black;
+	text-align: justify;
+	margin-right: 200px;
+	margin-left: 200px;
+	padding: 10px;
+}
+
+.cards p {
+	font-family:'Sora', sans-serif;
+	text-align: justify;
+}
